@@ -6,10 +6,10 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-FiapCloudSec
-  LOCATION: Brazil South
+  LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: ${{ secrets.subscription }}
-  WEBAPP-NAME: az400-webapp-NAME
+  SUBSCRIPTION-ID: ea33c507-febe-4cf2-a4b2-c151a43c948d
+  WEBAPP-NAME: Fiap_CloudSec_10
 
 
 jobs:
